@@ -49,7 +49,7 @@ nav {
   color: #fff;
   transition: ease-in 0.3s;
 }
-section {
+.first-section {
   background-color: #008374;
   position: relative;
 }
@@ -82,6 +82,8 @@ section {
 .content-2 a {
   color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
+  font-weight: 700;
+  font-size: 1.2rem;
 }
 .main-second {
   display: flex;
@@ -173,4 +175,79 @@ section {
 .main-first-card i {
   color: rgba(255, 255, 255, 0.7);
   font-size: 3rem;
+}
+.second-section {
+  width: 70%;
+  margin: auto;
+}
+.second-header {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  margin-top: 250px;
+  align-items: center;
+}
+.second-header h1 {
+  font-size: 2.3rem;
+}
+.second-header p {
+  font-size: 1.2rem;
+  padding: 20px 0px;
+}
+.second-header-border {
+  border-bottom: 5px solid #008d7d;
+  padding: 10px 0px;
+  width: 50px;
+}
+.second-main-content {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.second-content-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 900px;
+  margin-top: 100px;
+  width: 45%;
+}
+.second-content-1 h1 {
+  font-size: 1.9rem;
+  font-weight: bolder;
+}
+.second-content-1 p {
+  font-size: 1.1rem;
+}
+.second-content-1 img {
+  border-radius: 20px;
+  height: 60%;
+}
+.second-main-paragraphs {
+  display: flex;
+}
+.second-main-paragraphs i {
+  color: #00796b;
+  font-size: 1.3rem;
+  margin-right: 10px;
+}
+.play {
+  display: flex;
+  background-color: #00796b;
+  width: 100px;
+  height: 100px;
+  font-size: 3rem;
+  color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 230px;
+  left: 1100px;
+  transition: ease 0.5s;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.play:hover {
+  transform: scale(1.5);
+  background-color: rgb(1, 137, 121);
 }
