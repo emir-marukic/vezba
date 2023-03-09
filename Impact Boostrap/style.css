@@ -251,3 +251,38 @@ nav {
   transform: scale(1.5);
   background-color: rgb(1, 137, 121);
 }
+.logos {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #00796b; */
+  align-self: center;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.logos img {
+  width: 9rem;
+  height: 4rem;
+  transition: ease 0.5s;
+}
+.logos img:hover {
+  transform: scale(1.3);
+}
+.stat {
+  display: flex;
+  justify-content: space-between;
+}
+.stat-info {
+  width: 50%;
+}
+.stat-num {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  height: 100px;
+}
+.stat-num span {
+  color: #00796b;
+  font-size: 3rem;
+  font-weight: bolder;
+}
