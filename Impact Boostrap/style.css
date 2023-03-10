@@ -339,6 +339,11 @@ nav {
   border: 3px solid white;
   font-size: 1.3rem;
   font-weight: 500;
+  cursor: pointer;
+  transition: ease-in 0.2s;
+}
+.action-container button:hover {
+  background-color: #00796b;
 }
 .services {
   display: flex;
